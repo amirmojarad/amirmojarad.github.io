@@ -1,0 +1,43 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #212121;
+}
+
+.menu .active a{
+    color: #212121;
+}
+
+.menu li:hover a {
+    color: #0e5cf7;
+}
+
+.main, .nav-content {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: white;
+    padding-right: 32px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-content {
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
